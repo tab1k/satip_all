@@ -1,0 +1,36 @@
+body {
+
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* --------------------------------- */
+/* HEADER */
+
+.head_all {
+  justify-content: center;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav_2 {
+  display: flex;
+  margin-left: 55%;
+}
+
+.nav-item {
+  padding: 15px;
+}
+
+.nav-links {
+
+}
