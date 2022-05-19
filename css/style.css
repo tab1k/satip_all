@@ -1,36 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  /*height: 1700px;*/
+
+}
+
 body {
+  width: 100%;
+  background-color: #f6f6f9;
+}
+
+input {
+  line-height: 22px;
+  min-width: 0;
+  padding: 14px 0 14px 16px;
+  border-color: #9400FF;
+  border-radius: 24px;
+  height: 20px;
+  width: 100%;
+  margin-top: 10px;
+
+}
+
+
+nav {
+  display: flex;
+  margin-left: 100px;
 
 }
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0px;
+}
+
+
+.icon_1 {
+  position: absolute;
+  height: 70px;
+  margin-left: 35px;
+  margin-top: 60px;
+}
+/* - - - - - - - - - - - - - - - - */
+
+/* FIRST HEADER */
+
+.inner_all_page {
+  background-color: white;
+}
+
+#header-page {
+  padding-bottom: 18px;
+  max-width: 1170px !important;
+  align-items: center;
+  margin: auto;
+}
+
+.header-logo {
+  margin-right: 0px;
+}
+
+.header-text {
+  width: 60%
+}
+
+
+.nav1{
+  display: flex;
+  padding-top: 1%;
+
+
+}
+
+.nav2{
+  width: 40%;
+  margin-right: 30px;
+}
+
+.actions {
+  display:flex;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.action {
+  padding-left: 15px;
+}
+
+.profile {
+  width: 73px;
+  text-align: center;
+}
+
+.header_search {
+  background-color: #9400FF;
+  border-radius: 100%;
+  margin-right: px;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  position: absolute;
+  margin-left: 38.6%;
+  margin-top: 16px;
+  border: none;
+}
+
+.search_lupa:hover {
+  background-color: #862ac1;
+  border-color: #862ac1;
+}
+
+
+.search_lupa {
+  height: 24px;
+  fill: white;
+}
+
+/* - - - - - - - - - - - - - - - - */
+
+/* SECOND HEADER */
+
+
+select {
+  height: 45px;
+  border: none;
+  border-radius: 18px;
+  text-align: center;
+  width: 150px;
+  background-color: #f6f6f9;
+  color: #862ac1;
+
+}
+
+.second_all_page{
+  background-color: white;
+}
+
+.second_nav {
+
+}
+
+#header-2page {
+  display: flex;
+  padding-top: 15px;
+  max-width: 1170px !important;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.second_nav {
+  display: flex;
+  width: 10%;
+  padding-left: 10px;
+  position: relative;
+}
+
+.second_navs {
+  display: flex;
+  width: 11%;
+  padding-left: 10px;
+  position: relative;
+}
+
+.second_actions {
+  background-color: #f6f6f9;
+  border-radius: 18px;
+  width: 90%;
+}
+
+.second_profile {
+  height: 45px;
+}
+
+.select_num1 {
+  margin-left: 450px;
+  height: 45px;
+  position: relative;
+}
+
+.kadyr{
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.kdr{
+  margin-top: -28px;
+  padding-left: 44px;
+}
+
+.kadr {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.kdyr {
+  margin-top: -24px;
+  padding-left: 44px;
+}
+
+
+/*  - - - - - - - - - - - - - - - - - - -   */
+
+/* РАЗМЕТКА СТРАНИЦЫ */
+
+
+
+.body_page {
+  max-width: 1170px !important;
+  margin: auto;
+  text-align: center;
+}
+
+.slider_padding {
+  padding: 40px 0;
+
+}
+
+.slides {
+  height: 350px;
+}
+
+.baner {
+  height: 300px;
+  width: 80%;
+  border-radius: 20px;
+}
+/* - - - - - - - - - - - - - - - - - */
+
+
+.card-area {
+  max-width: 1170px !important;
+  margin: auto;
+  position: relative;
+
+}
+
+.card-inner {
+  background-color: white;
+  height: 300px;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.full_card {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+
 }
 
 li {
-  list-style-type: none;
+  list-style: none;
+  padding: 10px;
 }
 
-/* --------------------------------- */
-/* HEADER */
+ul {
+  padding: 35px;
+}
 
-.head_all {
-  justify-content: center;
+.card-text {
+  margin: 10px;
+}
+
+.orient {
   display: flex;
+  margin: auto;
 }
 
-.nav {
+/*  - - - - - - - - - - - - - - - - - - - - - -   */
+
+.foot-area {
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+.foot-inner {
+  background-color: white;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.full_foot {
   display: flex;
+  text-align: center;
+  padding: 20px;
 }
 
-.nav_2 {
+.foot {
   display: flex;
-  margin-left: 55%;
+  margin: auto;
 }
 
-.nav-item {
-  padding: 15px;
+.footers {
+  padding: 20px;
 }
 
-.nav-links {
+.p_color {
+  color: grey;
+}
 
+.social_media {
+  text-align: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.icon_flex {
+  display: flex;
 }
